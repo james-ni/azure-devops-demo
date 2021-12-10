@@ -6,7 +6,7 @@ variables:
    major: 2
    minor: 0
 stages:
-- stage: Build Version
+- stage: Build_Version
   displayName: Build_Branch_Version_Number
   condition: ne(variables['Build.SourceBranch'], 'refs/heads/master')
   jobs:
